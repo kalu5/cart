@@ -1,0 +1,29 @@
+.cart-list {
+    width: 50%;
+    height: 2.45rem;
+    padding: .05rem;
+    box-sizing: border-box;
+
+    .link {
+        display: block;
+        height: 100%;
+        padding: .05rem .05rem 0;
+        background-color: #fff;
+        box-sizing: border-box;
+
+        .title {
+            height: .3rem;
+            line-height: .15rem;
+            overflow: hidden;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .price {
+            height: .25rem;
+            line-height: .3rem;
+            font-size: .14rem;
+            color: #f40;
+        }
+    }
+}

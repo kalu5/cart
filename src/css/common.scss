@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-size: .16rem;
+}
+
+html {
+    background-color: #efefef;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,45 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "autoprefixer": "^9.7.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-latest": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.3.2",
+    "ejs": "^3.0.1",
+    "ejs-loader": "^0.3.5",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "name": "shopping_car",
+  "version": "1.0.0",
+  "description": "shopping_cat",
+  "main": "index.js",
+  "dependencies": {
+    "_fsevents@1.2.11@fsevents": "^1.2.11",
+    "fsevents": "^1.2.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base dist/ --hot --config webpack.config.js --progress --display-modules --colors --display-reasons"
+  },
+  "keywords": [
+    "js",
+    "webpack",
+    "shopping"
+  ],
+  "author": "kalu5",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+.toast-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: -.7rem 0 0 -.7rem;
+    background-color: rgba($color: #000000, $alpha: .6);
+    border-radius: .1rem;
+    color: #fff;
+
+    .fa {
+        font-size: .5rem;
+        margin-bottom: .15rem;
+    }
+
+    .tip {
+        font-size: .14rem;
+    } 
+}

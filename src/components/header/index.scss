@@ -1,0 +1,43 @@
+.cart-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: .44rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f40;
+    color: #fff;
+
+    .cart-title {
+        font-size: .16rem;
+    }
+
+    .edit {
+        display: none;
+        position: absolute;
+        top: .12rem;
+        right: .15rem;
+        color: #fff;
+        font-size: .14rem;
+
+        &.show {
+            display: block
+        }
+    }
+
+    .fa {
+        display: none;
+        position: absolute;
+        top: .07rem;
+        left: .15rem;
+        color: #fff;
+        font-size: .3rem;
+
+        &.show {
+            display: block;
+        }
+    }
+
+}

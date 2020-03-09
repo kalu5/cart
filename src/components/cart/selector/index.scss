@@ -1,0 +1,20 @@
+.num-selector {
+    display: flex;
+    flex-direction: row;
+    width: .63rem;
+    font-size: 0;
+    
+    .item {
+        width: .21rem;
+
+        &.input {
+            text-align: center;
+            background-color: #efefef;
+        }
+
+        &.btn {
+            background-color: #fff;
+            font-size: .14rem;
+        }
+    }
+}
